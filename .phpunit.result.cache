@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MainTest::testAddAsterisk":3,"MainTest::testHyphenate":3,"MainTest::testNumberPosition":3},"times":{"MainTest::testAddAsterisk":0.004,"MainTest::testHyphenate":0.001,"MainTest::testNumberPosition":0.001}}

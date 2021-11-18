@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "":"hyphenator/"
+        }
+    }
+}
