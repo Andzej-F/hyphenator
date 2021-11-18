@@ -1,1 +1,1 @@
-{"version":1,"defects":{"MainTest::testAddAsterisk":3,"MainTest::testHyphenate":3,"MainTest::testNumberPosition":3},"times":{"MainTest::testAddAsterisk":0.004,"MainTest::testHyphenate":0.001,"MainTest::testNumberPosition":0.001}}
+{"version":1,"defects":{"MainTest::testAddAsterisk":4,"MainTest::testHyphenate":4,"MainTest::testNumberPosition":3,"MainTest::testAddSymbol":3},"times":{"MainTest::testAddAsterisk":0.193,"MainTest::testHyphenate":0.156,"MainTest::testNumberPosition":0.001,"MainTest::testAddSymbol":0.269}}
