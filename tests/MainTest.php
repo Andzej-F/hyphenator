@@ -9,7 +9,7 @@ class MainTest extends TestCase
 
     function testAddSymbol()
     {
-        require 'main.php';
+        require './App/hyphhenation.php';
 
         $this->assertEquals('m*i*s*t*r*a*n*s*l*a*t*e', addSymbol('mistranslate', '*'));
         $this->assertEquals('.m*i*s1t*r*a*n*s*l*a*t*e.', addSymbol('.m*i*s1t*r*a*n*s*l*a*t*e.', '*'));
@@ -48,20 +48,6 @@ class MainTest extends TestCase
     //     // $this->assertEquals('mis-trans-late', hyphenate('mistranslate', $array));
     //     // $this->assertEquals('vig-or-ous', hyphenate('vigorous', [0 => '.mis1']));
     // }
-
-    // $start_array = [0 => ".mis1"];
-    // $end_array = [0 => "4te."];
-    // $middle_array = [
-    //     0 => "a2n",
-    //     1 => "m2is",
-    //     2 => "2n1s2",
-    //     3 => "n2sl",
-    //     4 => "s1l2",
-    //     5 => "s3lat",
-    //     6 => "st4r",
-    //     7 => "1tra"
-    // ];
-
 
 
     // public function testHyphenate()
